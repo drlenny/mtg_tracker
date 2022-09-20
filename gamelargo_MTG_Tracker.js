@@ -62,7 +62,7 @@ parseAndFilterGameStateMessages = function (log) {
                         if (annotation.type[0] == ["AnnotationType_NewTurnStarted"]) {
                             /* ADDING FIX TO TURNNUMBER 1 */
                             if (!message.gameStateMessage.turnInfo.turnNumber) {
-                                turnNumber = 1;
+                                turnNumber += 1;
                             } else {
                                 turnNumber = message.gameStateMessage.turnInfo.turnNumber;
                             }
@@ -136,6 +136,8 @@ parseAndFilterGameStateMessages = function (log) {
                                         //build a set of colors for shared cases.
                                         var colorBuffer = [];
 
+                                        
+
                                         //Finds all mana associated with the activePlayer and pushes into the buffer array.
                                         if (shared == false) {
                                             console.log('++++++++++++NOT SHARED++++++++++++++', option.mana[0].color, turnNumber, act.seatId, annotation.affectorId, message.gameStateMessage.turnInfo.activePlayer)
@@ -204,7 +206,7 @@ parseAndFilterGameStateMessages = function (log) {
                             })
                         }
 
-                        // //if the annotation says mana has been paid, it should remove it from the 
+                        // //if the annotation says mana has been paid, it should remove it from the array
                         if (annotation.type[0] == 'AnnotationType_ManaPaid') {
                             var affector = annotation.affectorId;
                             var manaOwner = 0;
@@ -223,39 +225,27 @@ parseAndFilterGameStateMessages = function (log) {
                                     colorPaid = detail.valueInt32[0];
                                 }
                             });
-                            console.log("*********** MANA OWNER: " + manaOwner)
 
-                            console.log("P1 = " + p1)
-                            console.log("P2 = " + p2)
-                            console.log("P2MANA TEST " + JSON.stringify(p2Mana));
-                            console.log("P2MANA LENGTH: " + p2Mana.length);
-                            console.log("P2MANA LENGTH - 1: " + (p2Mana.length - 1));
-
+                            console.log("+++++++ REMOVING MANA TO CAST ++++++");
 
                             if (manaOwner == p1) {
                                 for (var i = p1Mana.length - 1; i >= 0; --i) {
 
-                                    console.log("P2[I].AFFECTOR" + p1Mana[i].affector)
-                                    console.log("test" + affector)
                                     if (p1Mana[i].affector == affector) {
+                                        console.log("+++++ P1 MANA " + p1Mana[i].affector + " SPENT ++++++");
                                         p1Mana.splice(i, 1);
-                                        console.log("TESTING :P");
                                     }
                                 }
                             }
                             else if (manaOwner == p2) {
                                 for (var i = p2Mana.length - 1; i >= 0; --i) {
 
-                                    console.log("P2[I].AFFECTOR" + p2Mana[i].affector);
-                                    console.log("AFFECTOR" + affector);
-
                                     if (p2Mana[i].affector == affector) {
+                                        console.log("+++++ P2 MANA " + p2Mana[i].affector + " SPENT ++++++");
                                         p2Mana.splice(i, 1);
-                                        console.log("TESTING :P2");
                                     }
                                 }
                             }
-                            console.log("P2MANA TEST " + JSON.stringify(p2Mana));
 
                         }
 
@@ -300,11 +290,11 @@ parseAndFilterGameStateMessages = function (log) {
                                                         //Finds all mana associated with the activePlayer and pushes into the buffer array.
                                                         if (shared == false) {
 
-                                                            console.log("hello");
-
                                                             if (act.seatId == p1 && gameObject.ownerSeatId == p1) {
-                                                                
+
                                                                 p1Mana = manaBuffer;
+
+                                                                console.log("====== P1 ADDED " +  act.action.sourceId, [option.mana[0].color] + " TO THE BOARD =======");
 
                                                                 p1Mana.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
                                                             } else if (act.seatId == p2 && gameObject.ownerSeatId == p2) {
