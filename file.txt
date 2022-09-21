@@ -12,311 +12,118 @@
 1660118508073 p1Mana [] p2Mana []
 1660118509818 p1Mana [] p2Mana []
 1660118510072 p1Mana [] p2Mana []
-====== P1 ADDED 496 ManaColor_White TO THE BOARD =======
+===== LAND PLAYED ======
 ++++++++++++ TURN NUMBER: 2 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 2 2 1 1
 1660118510472 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
 1660118510668 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
 1660118512471 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+===== LAND PLAYED ======
 1660118513853 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 498 SPENT ++++++
+1660118514980 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
 ++++++++++++ TURN NUMBER: 3 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 3 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 3 1 2 2
-1660118514980 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118516979 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118519701 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118519771 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118519819 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118520256 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118520319 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-====== P1 ADDED 496 ManaColor_White TO THE BOARD =======
-====== P1 ADDED 502 ManaColor_White TO THE BOARD =======
+1660118514980 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+1660118516979 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+1660118519701 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+1660118519771 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+1660118519819 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+1660118520256 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+1660118520319 p1Mana [ { affector: 496, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
+===== LAND PLAYED ======
 1660118520630 p1Mana [
   { affector: 496, color: [ 'ManaColor_White' ], shared: false },
   { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
+] p2Mana []
 1660118520946 p1Mana [
   { affector: 496, color: [ 'ManaColor_White' ], shared: false },
   { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
+] p2Mana []
 1660118521437 p1Mana [
   { affector: 496, color: [ 'ManaColor_White' ], shared: false },
   { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
+] p2Mana []
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P1 MANA 496 SPENT ++++++
+1660118522367 p1Mana [ { affector: 502, color: [ 'ManaColor_White' ], shared: false } ] p2Mana []
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P1 MANA 502 SPENT ++++++
+1660118522367 p1Mana [] p2Mana []
 ++++++++++++ TURN NUMBER: 4 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 4 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 4 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 4 1 1 1
-1660118522367 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118522447 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118523436 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118524366 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118524899 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [ { affector: 498, color: [ 'ManaColor_Blue' ], shared: false } ]
-1660118527145 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118522367 p1Mana [] p2Mana []
+1660118522447 p1Mana [] p2Mana []
+1660118523436 p1Mana [] p2Mana []
+1660118524366 p1Mana [] p2Mana []
+1660118524899 p1Mana [] p2Mana []
+===== LAND PLAYED ======
+1660118527145 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 498 SPENT ++++++
+1660118528729 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
 ++++++++++++ TURN NUMBER: 5 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 5 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 5 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 5 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 5 1 2 2
-1660118528729 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118530727 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118532239 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118536269 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118537318 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118537372 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118537437 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
+1660118528729 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118530727 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118532239 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118536269 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118537318 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118537372 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118537437 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
 +++++++ REMOVING MANA TO CAST ++++++
-+++++ P1 MANA 496 SPENT ++++++
+1660118538292 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
 +++++++ REMOVING MANA TO CAST ++++++
-+++++ P1 MANA 502 SPENT ++++++
-1660118538292 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118538449 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118539922 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118540145 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118540290 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
+1660118538292 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118538292 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118538449 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118539922 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118540145 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118540290 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
 ++++++++++++ TURN NUMBER: 6 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 6 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 6 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 6 1 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 6 1 1 1
-1660118544502 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118544507 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118546501 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118548836 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118544502 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118544507 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+1660118546501 p1Mana [] p2Mana [ { affector: 507, color: [ 'ManaColor_Blue' ], shared: false } ]
+===== LAND PLAYED ======
+1660118548836 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 498 SPENT ++++++
+1660118556877 p1Mana [] p2Mana [
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
+]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 507 SPENT ++++++
+1660118556877 p1Mana [] p2Mana [ { affector: 522, color: [ 'ManaColor_Blue' ], shared: false } ]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 522 SPENT ++++++
+1660118556877 p1Mana [] p2Mana []
 ++++++++++++ TURN NUMBER: 7 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 7 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 7 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 7 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 7 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 7 1 2 2
-1660118556877 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118558875 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118567618 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118567681 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118567936 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118569254 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118569473 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
+1660118556877 p1Mana [] p2Mana []
+1660118558875 p1Mana [] p2Mana []
+1660118567618 p1Mana [] p2Mana []
+1660118567681 p1Mana [] p2Mana []
+1660118567936 p1Mana [] p2Mana []
+1660118569254 p1Mana [] p2Mana []
+1660118569473 p1Mana [] p2Mana []
 +++++++ REMOVING MANA TO CAST ++++++
-+++++ P1 MANA 496 SPENT ++++++
+1660118569867 p1Mana [] p2Mana []
 +++++++ REMOVING MANA TO CAST ++++++
-+++++ P1 MANA 502 SPENT ++++++
-1660118569867 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118570583 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118570758 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118571865 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118572579 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
+1660118569867 p1Mana [] p2Mana []
+1660118569867 p1Mana [] p2Mana []
+1660118570583 p1Mana [] p2Mana []
+1660118570758 p1Mana [] p2Mana []
+1660118571865 p1Mana [] p2Mana []
+1660118572579 p1Mana [] p2Mana []
 ++++++++++++ TURN NUMBER: 8 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 8 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 8 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 8 1 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 8 1 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 8 1 1 1
-1660118572945 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118574943 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false }
-]
-1660118577207 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118572945 p1Mana [] p2Mana []
+1660118574943 p1Mana [] p2Mana []
+===== LAND PLAYED ======
+1660118577207 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
@@ -324,295 +131,188 @@
 ]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 498 SPENT ++++++
+1660118578418 p1Mana [] p2Mana [
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 507 SPENT ++++++
-1660118578418 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118578418 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118580416 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118578418 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118583346 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118580416 p1Mana [] p2Mana [
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118583346 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 ++++++++++++ TURN NUMBER: 9 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 9 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 9 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 9 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 9 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 9 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 9 1 2 2
-1660118584769 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118584769 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118586768 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118586768 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118588034 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118588034 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118588088 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118588088 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118588385 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118588385 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118588455 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118588455 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118588488 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118588488 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118588804 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118588804 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118588857 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118588857 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118589470 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118589470 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118589838 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118589838 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 +++++++ REMOVING MANA TO CAST ++++++
-+++++ P1 MANA 496 SPENT ++++++
-+++++++ REMOVING MANA TO CAST ++++++
-+++++ P1 MANA 502 SPENT ++++++
 1660118590343 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
++++++++ REMOVING MANA TO CAST ++++++
+1660118590343 p1Mana [] p2Mana [
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118590343 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 1660118592341 p1Mana [] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 ++++++++++++ TURN NUMBER: 10 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 10 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 10 2 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 10 1 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 10 1 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 10 1 1 1
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 10 1 1 1
-1660118593995 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118593995 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118594601 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118594601 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118595993 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
-  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+1660118595993 p1Mana [] p2Mana [
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 +++++++ REMOVING MANA TO CAST ++++++
-+++++ P2 MANA 498 SPENT ++++++
+1660118597379 p1Mana [] p2Mana [
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
 +++++++ REMOVING MANA TO CAST ++++++
-+++++ P2 MANA 507 SPENT ++++++
+1660118597379 p1Mana [] p2Mana [
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 522 SPENT ++++++
+1660118597379 p1Mana [] p2Mana [ { affector: 536, color: [ 'ManaColor_Blue' ], shared: false } ]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 536 SPENT ++++++
-1660118597379 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana []
-1660118599377 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana []
-1660118600827 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118597379 p1Mana [] p2Mana []
+1660118597379 p1Mana [] p2Mana []
+1660118599377 p1Mana [] p2Mana []
+===== LAND PLAYED ======
+1660118600827 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118603000 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118603000 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118604998 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118604998 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118606102 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118606102 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118609730 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118609730 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118612006 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118612006 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118616992 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118616992 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118619271 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118619271 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118619688 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118619688 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118620682 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118620682 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
@@ -621,140 +321,156 @@
 ]
 +++++++ REMOVING MANA TO CAST ++++++
 +++++ P2 MANA 551 SPENT ++++++
-1660118622068 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118622068 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118624065 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118622068 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118626908 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118624065 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118628906 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118626908 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118629492 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118628906 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118629492 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 ++++++++++++ TURN NUMBER: 11 ++++++++++++++
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 11 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_White 11 2 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 11 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 11 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 11 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 11 1 2 2
-++++++++++++NOT SHARED++++++++++++++ ManaColor_Blue 11 1 2 2
-1660118630787 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118630787 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118632785 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118632785 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118633202 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118633202 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118633242 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118633242 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118635205 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118635205 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 ++++++++++++ NEW GAME INITIALIZATION ++++++++++++++
-1660118670361 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118670361 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
-1660118670913 p1Mana [
-  { affector: 496, color: [ 'ManaColor_White' ], shared: false },
-  { affector: 502, color: [ 'ManaColor_White' ], shared: false }
-] p2Mana [
+1660118670913 p1Mana [] p2Mana [
   { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
   { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false },
-  { affector: 551, color: [ 'ManaColor_Blue' ], shared: false }
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
 ]
 ++++++++++++ TURN NUMBER: 12 ++++++++++++++
-1660118671861 p1Mana [] p2Mana []
-1660118682751 p1Mana [] p2Mana []
-1660118684324 p1Mana [] p2Mana []
-1660118684994 p1Mana [] p2Mana []
-1660118685027 p1Mana [] p2Mana []
-1660118685198 p1Mana [] p2Mana []
-1660118686024 p1Mana [] p2Mana []
-1660118686067 p1Mana [] p2Mana []
-1660118686326 p1Mana [] p2Mana []
-1660118686360 p1Mana [] p2Mana []
-1660118687142 p1Mana [] p2Mana []
-1660118689141 p1Mana [] p2Mana []
+1660118671861 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118682751 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118684324 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118684994 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118685027 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118685198 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118686024 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118686067 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118686326 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118686360 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118687142 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
+1660118689141 p1Mana [] p2Mana [
+  { affector: 498, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 507, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 522, color: [ 'ManaColor_Blue' ], shared: false },
+  { affector: 536, color: [ 'ManaColor_Blue' ], shared: false }
+]
