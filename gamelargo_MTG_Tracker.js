@@ -20,8 +20,6 @@ var stringLogMatch = stringLog.match(reggie);
 
 parseAndFilterGameStateMessages = function (log) {
 
-    var testLog = []
-
     var zones = [];
     var turnTracker = [];
     var lifeTracker = [];
@@ -51,6 +49,8 @@ parseAndFilterGameStateMessages = function (log) {
                 /* ADDING NEW GAME INDICATOR */
                 if (message.type == 'GREMessageType_ConnectResp') {
                     console.log('\n++++++++++++ NEW GAME INITIALIZATION ++++++++++++++')
+                    /* resets mana for new game */
+                    turnNumber = 0
                     p1Mana = []
                     p2Mana = []
 
@@ -66,13 +66,12 @@ parseAndFilterGameStateMessages = function (log) {
                     message.gameStateMessage.annotations.forEach(annotation => {
                         if (annotation.type[0] == ["AnnotationType_NewTurnStarted"]) {
 
-                            /* ADDING FIX TO TURNNUMBER 1 */
                             if (!message.gameStateMessage.turnInfo.turnNumber) {
                                 turnNumber = 1;
                             } else {
                                 turnNumber = message.gameStateMessage.turnInfo.turnNumber;
                             }
-                            /* ADDING PLAYER ORDER IDENTIFIER */
+                            /* PLAYER ORDER IDENTIFIER */
                             if (turnNumber == 1 && message.gameStateMessage.turnInfo.activePlayer == 1) {
                                 p1 = 1;
                                 p2 = 2;
@@ -108,6 +107,9 @@ parseAndFilterGameStateMessages = function (log) {
                     message.gameStateMessage.annotations.forEach(annotation => {
 
                         var manaBuffer = [];
+
+                        var p1ManaBuffer = [...p1Mana]
+                        var p2ManaBuffer = [...p2Mana]
 
                         /* On the untap phase, looks through each action for objects with a mana source and adds it to array */
                         if ((annotation.type[0] == ["AnnotationType_TappedUntappedPermanent"] && message.gameStateMessage.actions)) {
@@ -149,10 +151,10 @@ parseAndFilterGameStateMessages = function (log) {
 
                                             if (act.seatId == p1) {
 
-                                                p1Mana.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
+                                                p1ManaBuffer.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
                                             } else if (act.seatId == p2) {
 
-                                                p2Mana.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
+                                                p2ManaBuffer.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
 
                                             }
                                         }
@@ -166,15 +168,15 @@ parseAndFilterGameStateMessages = function (log) {
 
                                             if (act.seatId == p1 && checkManaExists != true) {
 
-                                                p1Mana.push({ "affector": act.action.sourceId, "color": colorBuffer, "shared": shared })
+                                                p1ManaBuffer.push({ "affector": act.action.sourceId, "color": colorBuffer, "shared": shared })
 
-                                                checkManaExists = p1Mana.some(checkMana);
+                                                checkManaExists = p1ManaBuffer.some(checkMana);
 
                                             } else if (act.seatId == p2 && checkManaExists != true) {
 
-                                                p2Mana.push({ "affector": act.action.sourceId, "color": colorBuffer, "shared": shared })
+                                                p2ManaBuffer.push({ "affector": act.action.sourceId, "color": colorBuffer, "shared": shared })
 
-                                                checkManaExists = p2Mana.some(checkMana);
+                                                checkManaExists = p2ManaBuffer.some(checkMana);
                                             }
 
                                         }
@@ -196,8 +198,16 @@ parseAndFilterGameStateMessages = function (log) {
 
                                 }
 
-                                /* REMOVED MANABUFFER RESET */
+                                //push the mana buffer to the correct mana array depending on player.
+                                if (act.seatId == p1) {
 
+                                    p1Mana = p1ManaBuffer;
+
+                                }
+                                else if (act.seatId == p2) {
+
+                                    p2Mana = p2ManaBuffer;
+                                }
                                 count = 0;
 
                             })
@@ -267,90 +277,101 @@ parseAndFilterGameStateMessages = function (log) {
                                             message.gameStateMessage.actions.forEach(act => {
 
                                                 count = 0;
-
+                
                                                 //this just determines if a single card has multiple mana options. 
                                                 //Two cases: the first is multiple Activate_Mana action for a single "instanceId" 
                                                 //or a single Activate_Mana action with multiple manaPaymentOptions entries.
                                                 var shared = message.gameStateMessage.actions.some((element, index) => {
-
+                
                                                     if (element.action.sourceId == act.action.sourceId && act.action.actionType == "ActionType_Activate_Mana" && act.action.manaPaymentOptions) {
                                                         count++
                                                     }
                                                     else if (act.action.manaPaymentOptions && act.action.manaPaymentOptions.length > 1 && act.action.actionType == "ActionType_Activate_Mana" && element.action.actionType == "ActionType_Activate_Mana") {
                                                         count = act.action.manaPaymentOptions.length;
                                                     }
-
+                
                                                     return count > 1;
                                                 });
-
+                
                                                 //process all the actions.
-                                                if (act.action.actionType == "ActionType_Activate_Mana" && act.action.manaPaymentOptions.length <= 1 /* REMOVED THIRD CONDITION */) {
-
+                                                if (act.action.actionType == "ActionType_Activate_Mana" /* && act.action.manaPaymentOptions.length <= 1 */ && act.action.sourceId == annotation.affectedIds[0]) {
+                
+                                                    //build a set of colors for shared cases.
+                                                    var colorBuffer = [];
+                
+                                                    /* checks if mana source already exists in array */
+                                                    var checkMana = obj => obj.affector === act.action.sourceId;
+                
+                                                    var checkManaExists = false;
+                
                                                     act.action.manaPaymentOptions.forEach(option => {
-                                                        //build a set of colors for shared cases.
-
+                
                                                         //Finds all mana associated with the activePlayer and pushes into the buffer array.
                                                         if (shared == false) {
-
-                                                            if (act.seatId == p1 && gameObject.ownerSeatId == p1 && affected == act.action.sourceId) {
-
-                                                                p1Mana.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
-                                                            } else if (act.seatId == p2 && gameObject.ownerSeatId == p2 && affected == act.action.sourceId) {
-
-                                                                p2Mana.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
-
+                
+                                                            if (act.seatId == p1) {
+                
+                                                                p1ManaBuffer.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
+                                                            } else if (act.seatId == p2) {
+                
+                                                                p2ManaBuffer.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
+                
                                                             }
                                                         }
-
+                
                                                         //Finds all instances of mana with multiple mana generating actions in 2
                                                         if (shared == true) {
-
-
-                                                            //checks if there are other manas with the same sourceId in the mana buffer. 
-                                                            checkManaExists = manaBuffer.some(manaCheck => {
-
-                                                                return manaCheck.affector == act.action.sourceId
+                
+                                                            option.mana.forEach(manaColor => {
+                                                                colorBuffer.push(manaColor.color)
                                                             })
-
-                                                            //if it doesn't exist in the buffer already, push the color to the color buffer to be added to the push.
-
-                                                            if (checkManaExists == false) {
-                                                                message.gameStateMessage.actions.forEach(sharedManaAction => {
-                                                                    if (sharedManaAction.action.sourceId == act.action.sourceId) {
-                                                                        var currentColor = sharedManaAction.action.manaPaymentOptions[0]
-                                                                        colorBuffer.push(currentColor.mana[0].color)
-                                                                    }
-
-                                                                })
-
-
-                                                                manaBuffer.push({ "affector": act.action.sourceId, "color": colorBuffer, "shared": shared })
+                
+                                                            if (act.seatId == p1 && checkManaExists != true) {
+                
+                                                                p1ManaBuffer.push({ "affector": act.action.sourceId, "color": colorBuffer, "shared": shared })
+                
+                                                                checkManaExists = p1ManaBuffer.some(checkMana);
+                
+                                                            } else if (act.seatId == p2 && checkManaExists != true) {
+                
+                                                                p2ManaBuffer.push({ "affector": act.action.sourceId, "color": colorBuffer, "shared": shared })
+                
+                                                                checkManaExists = p2ManaBuffer.some(checkMana);
                                                             }
-
-
+                
                                                         }
-
+                
                                                     })
                                                 }
-
+                
                                                 //process cases where there are multiple paymentoptions in a single Activate_Mana action.
                                                 if (act.action.actionType == "ActionType_Activate_Mana" && act.action.manaPaymentOptions.length > 1) {
                                                     var colorBufferMulti = [];
                                                     act.action.manaPaymentOptions.forEach(option => {
                                                         colorBufferMulti.push(option.mana[0].color)
                                                     })
-
+                
                                                     if (annotation.affectorId == act.seatId && shared == true) {
-
+                                                        console.log('+++++++++++++SHARED MULTI+++++++++++++', colorBufferMulti, turnNumber, act.seatId, annotation.affectorId, message.gameStateMessage.turnInfo.activePlayer)
                                                         manaBuffer.push({ "affector": act.action.sourceId, "color": colorBufferMulti, "shared": shared })
                                                     }
-
+                
                                                 }
-
+                
+                                                //push the mana buffer to the correct mana array depending on player.
+                                                if (act.seatId == p1) {
+                
+                                                    p1Mana = p1ManaBuffer;
+                
+                                                }
+                                                else if (act.seatId == p2) {
+                
+                                                    p2Mana = p2ManaBuffer;
+                                                }
                                                 count = 0;
-
+                
                                             })
-
+                
                                         }
                                     })
 
@@ -363,14 +384,15 @@ parseAndFilterGameStateMessages = function (log) {
 
                 /* handles only adding new data to manaTracker and prevents exact copies */
 
-                lastManaState = { timestamp, p1Mana, p2Mana }
+                lastManaState = { timestamp, p1Mana, p2Mana, turnNumber}
 
                 var dataExists = manaTracker.some(data => data.timestamp === lastManaState.timestamp && data.p1Mana === lastManaState.p1Mana && data.p2Mana === lastManaState.p2Mana);
 
                 if (!dataExists) {
-                    testLog.push(console.log("\n" + timestamp, "p1Mana", p1Mana, "p2Mana", p2Mana))
 
-                    manaTracker.push({ timestamp, p1Mana, p2Mana })
+                    console.log("\n" + timestamp, "turn number " + turnNumber + " p1Mana", p1Mana, "p2Mana", p2Mana)
+
+                    manaTracker.push(lastManaState)
 
                 }
             })
@@ -378,6 +400,7 @@ parseAndFilterGameStateMessages = function (log) {
 
         }
     }
+    console.log("noice " + JSON.stringify(manaTracker));
 
     return manaTracker
 };
@@ -420,7 +443,7 @@ fs.writeFileSync('compiledLog.json', JSON.stringify(p1ManaChartPoints));
 
 
 manaArray.forEach(manaItem => {
-    console.log("-- P1Mana -- -- P1Mana ---- P1Mana --", "\n", manaItem.p1Mana, "\n-- P2Mana -- -- P2Mana ---- P2Mana --", "\n", manaItem.p2Mana)
+    console.log("\nTimestamp: " + manaItem.timestamp + "\nTurn Number: " + manaItem.turnNumber + "\n-- P1Mana -- -- P1Mana ---- P1Mana --", "\n", manaItem.p1Mana, "\n-- P2Mana -- -- P2Mana ---- P2Mana --", "\n", manaItem.p2Mana)
 })
 
 
