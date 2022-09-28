@@ -110,11 +110,8 @@ parseAndFilterGameStateMessages = function (log) {
                         var manaBuffer2 = [];
 
 
-
+                        /* On the untap phase, looks through each action for objects with a mana source and adds it to array */
                         if ((annotation.type[0] == ["AnnotationType_TappedUntappedPermanent"] && message.gameStateMessage.actions)) {
-
-
-                            /* REMOVED ACTIVEPLAYER */
 
                             message.gameStateMessage.actions.forEach(act => {
 
@@ -141,11 +138,10 @@ parseAndFilterGameStateMessages = function (log) {
                                     //build a set of colors for shared cases.
                                     var colorBuffer = [];
 
+                                    /* checks if mana source already exists in array */
                                     var checkMana = obj => obj.affector === act.action.sourceId;
-                                    // console.log(p1Mana);
-                                    // console.log(act.action.sourceId);
+                    
                                     var checkManaExists = false;
-                                    // console.log(p1Mana.some(checkMana));
 
                                     act.action.manaPaymentOptions.forEach(option => {
 
@@ -252,6 +248,7 @@ parseAndFilterGameStateMessages = function (log) {
                         }
 
                         // //if the annotation says mana has been paid, it should remove it from the array
+                        /* still needs to account for other sources, only tracks land so far */
                         if (annotation.type[0] == 'AnnotationType_ManaPaid') {
 
                             var affector = annotation.affectorId;
@@ -299,6 +296,7 @@ parseAndFilterGameStateMessages = function (log) {
 
 
                         /* ======== ADDS MANA TO ARRAY ON PLAYLAND ============ */
+                        /* still needs to account for other sources, only tracks land so far */
                         if (annotation.type[0] == 'AnnotationType_ZoneTransfer') {
 
                             var affected = annotation.affectedIds[0]
@@ -311,8 +309,6 @@ parseAndFilterGameStateMessages = function (log) {
                                     message.gameStateMessage.gameObjects.forEach(gameObject => {
                                         if (gameObject.instanceId == affected && gameObject.isTapped !== true) {
 
-
-                                            /* +++++++++++++ TENTATIVE ++++++++++++++*/
                                             message.gameStateMessage.actions.forEach(act => {
 
                                                 count = 0;
@@ -343,16 +339,8 @@ parseAndFilterGameStateMessages = function (log) {
 
                                                             if (act.seatId == p1 && gameObject.ownerSeatId == p1 && affected == act.action.sourceId) {
 
-                                                                // p1Mana = manaBuffer;
-
-                                                                // console.log("====== P1 ADDED " + act.action.sourceId, [option.mana[0].color] + " TO THE BOARD =======");
-
                                                                 p1Mana.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
                                                             } else if (act.seatId == p2 && gameObject.ownerSeatId == p2 && affected == act.action.sourceId) {
-
-                                                                // p2Mana = manaBuffer2;
-
-                                                                // console.log("====== P2 ADDED " + act.action.sourceId, [option.mana[0].color] + " TO THE BOARD =======");
 
                                                                 p2Mana.push({ "affector": act.action.sourceId, "color": [option.mana[0].color], "shared": shared })
 
@@ -408,14 +396,6 @@ parseAndFilterGameStateMessages = function (log) {
 
                                             })
 
-
-
-                                            //I haven't finished this, but when a land is played I want to get the id of the
-                                            //land that was played, check if it isTapped = false, and get the activate mana 
-                                            //actions that it has and add it to the proper array, p1Mana or p2Mana.
-
-
-
                                         }
                                     })
 
@@ -425,12 +405,12 @@ parseAndFilterGameStateMessages = function (log) {
 
                     })
                 }
+                console.log("\n" + timestamp, "p1Mana", p1Mana, "p2Mana", p2Mana)
 
+                manaTracker.push({ timestamp, p1Mana, p2Mana })
             })
-            /* MOVED UP ONE IN HIERARCHY TO RESOLVE REPEATING OUTPUT */
-            console.log("\n" + timestamp, "p1Mana", p1Mana, "p2Mana", p2Mana)
+            
 
-            manaTracker.push({ timestamp, p1Mana, p2Mana })
         }
     }
     /*   
