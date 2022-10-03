@@ -380,50 +380,6 @@ parseAndFilterGameStateMessages = function (log) {
                             }
                         }
 
-                        // // removes mana if source is destroyed
-                        // // 
-                        // if (annotation.type[0] == 'AnnotationType_ObjectIdChanged') {
-
-                        //     var affected = annotation.affectedIds[0]
-                        //     var manaOwner = 0
-
-
-                        //     // tracks which player owns the mana
-                        //     message.gameStateMessage.gameObjects.forEach(object => {
-                        //         if (object.instanceId == affector) {
-                        //             manaOwner = object.controllerSeatId
-                        //         }
-                        //     })
-
-                        //     if (manaOwner == p1) {
-                        //         for (var i = p1Mana.length - 1; i >= 0; --i) {
-                        //             var newId = 0
-                        //             // checks if value matches with mana in array
-                        //             if (p1Mana[i].affector == affected && annotation.details) {
-                        //                 // assigns new id
-                        //                 annotation.details.forEach(detail => {
-                        //                     if (detail.key = 'new_id') {
-                        //                         newId = valueInt32[0]
-                        //                     }
-                        //                 })
-
-                        //             }
-                        //         }
-                        //     }
-                        //     else if (manaOwner == p2) {
-
-                        //         for (var i = p2Mana.length - 1; i >= 0; --i) {
-
-                        //             if (p2Mana[i].affector == affected) {
-
-                        //             }
-                        //         }
-                        //     }
-                        //     else {
-                        //         console.log("ERROR");
-                        //     }
-                        // }
-
                     })
                 }
 
