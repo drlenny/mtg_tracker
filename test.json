@@ -1,0 +1,3899 @@
+[
+    50151
+] [UnityCrossThreadLogger
+]8/10/2022 2: 14: 30 AM: Match to 5YK5PK6YCNGOVARNTLAAUUTTWE: GreToClientEvent
+{
+    "transactionId": "e82cefa4-f392-4517-9cd3-b660a02180c0",
+    "timestamp": "1660119270565",
+    "greToClientEvent": {
+        "greToClientMessages": [
+            {
+                "type": "GREMessageType_GameStateMessage",
+                "systemSeatIds": [
+                    1
+                ],
+                "msgId": 993,
+                "gameStateId": 692,
+                "gameStateMessage": {
+                    "type": "GameStateType_Diff",
+                    "gameStateId": 692,
+                    "zones": [
+                        {
+                            "zoneId": 27,
+                            "type": "ZoneType_Stack",
+                            "visibility": "Visibility_Public",
+                            "objectInstanceIds": [
+                                769
+                            ]
+                        },
+                        {
+                            "zoneId": 28,
+                            "type": "ZoneType_Battlefield",
+                            "visibility": "Visibility_Public",
+                            "objectInstanceIds": [
+                                767,
+                                747,
+                                745,
+                                732,
+                                720,
+                                709,
+                                700,
+                                689,
+                                686,
+                                673,
+                                609,
+                                593,
+                                590,
+                                587,
+                                550,
+                                525,
+                                516,
+                                513,
+                                503,
+                                499,
+                                496,
+                                484,
+                                480,
+                                473,
+                                402,
+                                394,
+                                392,
+                                389,
+                                738,
+                                756,
+                                757,
+                                758,
+                                760,
+                                761,
+                                762
+                            ]
+                        },
+                        {
+                            "zoneId": 30,
+                            "type": "ZoneType_Limbo",
+                            "visibility": "Visibility_Public",
+                            "objectInstanceIds": [
+                                387,
+                                766,
+                                616,
+                                699,
+                                744,
+                                231,
+                                707,
+                                706,
+                                576,
+                                543,
+                                477,
+                                714,
+                                556,
+                                708,
+                                612,
+                                575,
+                                610,
+                                698,
+                                230,
+                                229,
+                                491,
+                                685,
+                                228,
+                                599,
+                                598,
+                                548,
+                                470,
+                                604,
+                                603,
+                                408,
+                                476,
+                                563,
+                                586,
+                                227,
+                                574,
+                                310,
+                                407,
+                                564,
+                                505,
+                                216,
+                                226,
+                                542,
+                                534,
+                                557,
+                                312,
+                                524,
+                                406,
+                                486,
+                                533,
+                                225,
+                                523,
+                                502,
+                                405,
+                                213,
+                                512,
+                                224,
+                                307,
+                                391,
+                                404,
+                                218,
+                                214,
+                                223,
+                                483,
+                                308,
+                                403,
+                                219,
+                                215,
+                                222,
+                                309,
+                                334,
+                                397,
+                                396,
+                                315,
+                                393,
+                                221,
+                                311,
+                                314,
+                                388,
+                                220,
+                                313
+                            ]
+                        },
+                        {
+                            "zoneId": 37,
+                            "type": "ZoneType_Graveyard",
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "objectInstanceIds": [
+                                774,
+                                741,
+                                606,
+                                560,
+                                547,
+                                399
+                            ]
+                        }
+                    ],
+                    "gameObjects": [
+                        {
+                            "instanceId": 387,
+                            "grpId": 80404,
+                            "type": "GameObjectType_Card",
+                            "zoneId": 30,
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "controllerSeatId": 2,
+                            "cardTypes": [
+                                "CardType_Land"
+                            ],
+                            "name": 567893,
+                            "abilities": [
+                                76735,
+                                1131,
+                                149629
+                            ],
+                            "overlayGrpId": 80404
+                        },
+                        {
+                            "instanceId": 402,
+                            "grpId": 76685,
+                            "type": "GameObjectType_Card",
+                            "zoneId": 28,
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "controllerSeatId": 2,
+                            "superTypes": [
+                                "SuperType_Basic"
+                            ],
+                            "cardTypes": [
+                                "CardType_Land"
+                            ],
+                            "subtypes": [
+                                "SubType_Plains"
+                            ],
+                            "isTapped": true,
+                            "name": 648,
+                            "abilities": [
+                                1001
+                            ],
+                            "overlayGrpId": 76685
+                        },
+                        {
+                            "instanceId": 484,
+                            "grpId": 72026,
+                            "type": "GameObjectType_Card",
+                            "zoneId": 28,
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "controllerSeatId": 2,
+                            "cardTypes": [
+                                "CardType_Land"
+                            ],
+                            "isTapped": true,
+                            "name": 46161,
+                            "abilities": [
+                                76735,
+                                90050,
+                                1203
+                            ],
+                            "overlayGrpId": 72026
+                        },
+                        {
+                            "instanceId": 503,
+                            "grpId": 72031,
+                            "type": "GameObjectType_Card",
+                            "zoneId": 28,
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "controllerSeatId": 2,
+                            "cardTypes": [
+                                "CardType_Land"
+                            ],
+                            "isTapped": true,
+                            "name": 46184,
+                            "abilities": [
+                                76735,
+                                90050,
+                                1131
+                            ],
+                            "overlayGrpId": 72031
+                        },
+                        {
+                            "instanceId": 609,
+                            "grpId": 82479,
+                            "type": "GameObjectType_Card",
+                            "zoneId": 28,
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "controllerSeatId": 2,
+                            "superTypes": [
+                                "SuperType_Basic"
+                            ],
+                            "cardTypes": [
+                                "CardType_Land"
+                            ],
+                            "subtypes": [
+                                "SubType_Forest"
+                            ],
+                            "isTapped": true,
+                            "name": 647,
+                            "abilities": [
+                                1005
+                            ],
+                            "overlayGrpId": 82479
+                        },
+                        {
+                            "instanceId": 769,
+                            "grpId": 149629,
+                            "type": "GameObjectType_Ability",
+                            "zoneId": 27,
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "controllerSeatId": 2,
+                            "objectSourceGrpId": 80404,
+                            "parentId": 387
+                        },
+                        {
+                            "instanceId": 774,
+                            "grpId": 80404,
+                            "type": "GameObjectType_Card",
+                            "zoneId": 37,
+                            "visibility": "Visibility_Public",
+                            "ownerSeatId": 2,
+                            "controllerSeatId": 2,
+                            "cardTypes": [
+                                "CardType_Land"
+                            ],
+                            "name": 567893,
+                            "abilities": [
+                                76735,
+                                1131,
+                                149629
+                            ],
+                            "overlayGrpId": 80404
+                        }
+                    ],
+                    "annotations": [
+                        {
+                            "id": 1912,
+                            "affectorId": 387,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceCreated"
+                            ],
+                            "details": [
+                                {
+                                    "key": "source_zone",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        28
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1913,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                387
+                            ],
+                            "type": [
+                                "AnnotationType_TappedUntappedPermanent"
+                            ],
+                            "details": [
+                                {
+                                    "key": "tapped",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1917,
+                            "affectorId": 402,
+                            "affectedIds": [
+                                770
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceCreated"
+                            ],
+                            "details": [
+                                {
+                                    "key": "source_zone",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        28
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1918,
+                            "affectorId": 770,
+                            "affectedIds": [
+                                402
+                            ],
+                            "type": [
+                                "AnnotationType_TappedUntappedPermanent"
+                            ],
+                            "details": [
+                                {
+                                    "key": "tapped",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1919,
+                            "affectorId": 402,
+                            "affectedIds": [
+                                770
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceDeleted"
+                            ]
+                        },
+                        {
+                            "id": 1920,
+                            "affectorId": 2,
+                            "affectedIds": [
+                                770
+                            ],
+                            "type": [
+                                "AnnotationType_UserActionTaken"
+                            ],
+                            "details": [
+                                {
+                                    "key": "actionType",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        4
+                                    ]
+                                },
+                                {
+                                    "key": "abilityGrpId",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1001
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1921,
+                            "affectorId": 402,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_ManaPaid"
+                            ],
+                            "details": [
+                                {
+                                    "key": "id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        19843
+                                    ]
+                                },
+                                {
+                                    "key": "color",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1922,
+                            "affectorId": 609,
+                            "affectedIds": [
+                                771
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceCreated"
+                            ],
+                            "details": [
+                                {
+                                    "key": "source_zone",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        28
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1923,
+                            "affectorId": 771,
+                            "affectedIds": [
+                                609
+                            ],
+                            "type": [
+                                "AnnotationType_TappedUntappedPermanent"
+                            ],
+                            "details": [
+                                {
+                                    "key": "tapped",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1924,
+                            "affectorId": 609,
+                            "affectedIds": [
+                                771
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceDeleted"
+                            ]
+                        },
+                        {
+                            "id": 1925,
+                            "affectorId": 2,
+                            "affectedIds": [
+                                771
+                            ],
+                            "type": [
+                                "AnnotationType_UserActionTaken"
+                            ],
+                            "details": [
+                                {
+                                    "key": "actionType",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        4
+                                    ]
+                                },
+                                {
+                                    "key": "abilityGrpId",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1005
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1926,
+                            "affectorId": 609,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_ManaPaid"
+                            ],
+                            "details": [
+                                {
+                                    "key": "id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        19844
+                                    ]
+                                },
+                                {
+                                    "key": "color",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        5
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1927,
+                            "affectorId": 484,
+                            "affectedIds": [
+                                772
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceCreated"
+                            ],
+                            "details": [
+                                {
+                                    "key": "source_zone",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        28
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1928,
+                            "affectorId": 772,
+                            "affectedIds": [
+                                484
+                            ],
+                            "type": [
+                                "AnnotationType_TappedUntappedPermanent"
+                            ],
+                            "details": [
+                                {
+                                    "key": "tapped",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1930,
+                            "affectorId": 2,
+                            "affectedIds": [
+                                772
+                            ],
+                            "type": [
+                                "AnnotationType_UserActionTaken"
+                            ],
+                            "details": [
+                                {
+                                    "key": "actionType",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        4
+                                    ]
+                                },
+                                {
+                                    "key": "abilityGrpId",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1203
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1931,
+                            "affectorId": 484,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_ManaPaid"
+                            ],
+                            "details": [
+                                {
+                                    "key": "id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        19845
+                                    ]
+                                },
+                                {
+                                    "key": "color",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1932,
+                            "affectorId": 503,
+                            "affectedIds": [
+                                773
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceCreated"
+                            ],
+                            "details": [
+                                {
+                                    "key": "source_zone",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        28
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1933,
+                            "affectorId": 484,
+                            "affectedIds": [
+                                772
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceDeleted"
+                            ]
+                        },
+                        {
+                            "id": 1934,
+                            "affectorId": 773,
+                            "affectedIds": [
+                                503
+                            ],
+                            "type": [
+                                "AnnotationType_TappedUntappedPermanent"
+                            ],
+                            "details": [
+                                {
+                                    "key": "tapped",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1936,
+                            "affectorId": 2,
+                            "affectedIds": [
+                                773
+                            ],
+                            "type": [
+                                "AnnotationType_UserActionTaken"
+                            ],
+                            "details": [
+                                {
+                                    "key": "actionType",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        4
+                                    ]
+                                },
+                                {
+                                    "key": "abilityGrpId",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        1131
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1937,
+                            "affectorId": 503,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_ManaPaid"
+                            ],
+                            "details": [
+                                {
+                                    "key": "id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        19846
+                                    ]
+                                },
+                                {
+                                    "key": "color",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        4
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1939,
+                            "affectorId": 503,
+                            "affectedIds": [
+                                773
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceDeleted"
+                            ]
+                        },
+                        {
+                            "id": 1940,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                387
+                            ],
+                            "type": [
+                                "AnnotationType_ObjectIdChanged"
+                            ],
+                            "details": [
+                                {
+                                    "key": "orig_id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        387
+                                    ]
+                                },
+                                {
+                                    "key": "new_id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        774
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1941,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                774
+                            ],
+                            "type": [
+                                "AnnotationType_ZoneTransfer"
+                            ],
+                            "details": [
+                                {
+                                    "key": "zone_src",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        28
+                                    ]
+                                },
+                                {
+                                    "key": "zone_dest",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        37
+                                    ]
+                                },
+                                {
+                                    "key": "category",
+                                    "type": "KeyValuePairValueType_string",
+                                    "valueString": [
+                                        "Sacrifice"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1942,
+                            "affectorId": 2,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_UserActionTaken"
+                            ],
+                            "details": [
+                                {
+                                    "key": "actionType",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        2
+                                    ]
+                                },
+                                {
+                                    "key": "abilityGrpId",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        149629
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "diffDeletedInstanceIds": [
+                        770,
+                        771,
+                        772,
+                        773
+                    ],
+                    "prevGameStateId": 691,
+                    "timers": [
+                        {
+                            "timerId": 9,
+                            "type": "TimerType_ActivePlayer",
+                            "durationSec": 75,
+                            "elapsedSec": 5,
+                            "behavior": "TimerBehavior_TakeControl",
+                            "warningThresholdSec": 30,
+                            "elapsedMs": 5611
+                        },
+                        {
+                            "timerId": 11,
+                            "type": "TimerType_Inactivity",
+                            "durationSec": 150,
+                            "behavior": "TimerBehavior_Timeout",
+                            "warningThresholdSec": 30
+                        }
+                    ],
+                    "update": "GameStateUpdate_SendHiFi",
+                    "actions": [
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Cast",
+                                "instanceId": 217,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 3
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Green"
+                                        ],
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1001,
+                                "sourceId": 402,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19862,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 402,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1001
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1005,
+                                "sourceId": 609,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19863,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 609,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1005
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1167,
+                                "sourceId": 745,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19864,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 745,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1167
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19865,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 745,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1167
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1209,
+                                "sourceId": 480,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19866,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 480,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1209
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19867,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 480,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1209
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1211,
+                                "sourceId": 499,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19868,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 499,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19869,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 499,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1211,
+                                "sourceId": 686,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19870,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 686,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19871,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 686,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 389,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19872,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 389,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19873,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 389,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 392,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19874,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 392,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19875,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 392,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 503,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19876,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 503,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19877,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 503,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 513,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19878,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 513,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19879,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 513,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1203,
+                                "sourceId": 484,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19880,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 484,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19881,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 484,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1203,
+                                "sourceId": 700,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19882,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 700,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19883,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 700,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 496,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19884,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 496,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19885,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 496,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 587,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19886,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 587,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19887,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 587,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 767,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19888,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 767,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19889,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 767,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 18504,
+                                "sourceId": 394,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19890,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 394,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 18504
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19891,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 394,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 18504
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 143673,
+                                "sourceId": 593,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 2,
+                                        "abilityGrpId": 143673
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Blue"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 143673
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 143675,
+                                "sourceId": 593,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 4,
+                                        "abilityGrpId": 143675
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Blue"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 143675
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149352,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149353,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149354,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 183,
+                                "sourceId": 738,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19892,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19893,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19894,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 2
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19895,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 3
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19896,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 4
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149629,
+                                "sourceId": 392,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 2,
+                                        "abilityGrpId": 149629
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Red"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 149629
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Green"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 149629
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 141892,
+                                "sourceId": 673,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 4,
+                                        "abilityGrpId": 141892
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_White"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 141892
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "persistentAnnotations": [
+                        {
+                            "id": 16,
+                            "affectorId": 37,
+                            "affectedIds": [
+                                774
+                            ],
+                            "type": [
+                                "AnnotationType_EnteredZoneThisTurn"
+                            ]
+                        },
+                        {
+                            "id": 1938,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                387
+                            ],
+                            "type": [
+                                "AnnotationType_LinkInfo"
+                            ],
+                            "details": [
+                                {
+                                    "key": "LinkType",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        2
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "diffDeletedPersistentAnnotationIds": [
+                        1914,
+                        1915,
+                        1916,
+                        1929,
+                        1935
+                    ]
+                }
+            },
+            {
+                "type": "GREMessageType_GameStateMessage",
+                "systemSeatIds": [
+                    1
+                ],
+                "msgId": 994,
+                "gameStateId": 693,
+                "gameStateMessage": {
+                    "type": "GameStateType_Diff",
+                    "gameStateId": 693,
+                    "turnInfo": {
+                        "phase": "Phase_Main1",
+                        "turnNumber": 21,
+                        "activePlayer": 2,
+                        "priorityPlayer": 1,
+                        "decisionPlayer": 2,
+                        "nextPhase": "Phase_Combat",
+                        "nextStep": "Step_BeginCombat"
+                    },
+                    "prevGameStateId": 692,
+                    "update": "GameStateUpdate_SendHiFi",
+                    "actions": [
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Cast",
+                                "instanceId": 217,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 3
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Green"
+                                        ],
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1001,
+                                "sourceId": 402,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19917,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 402,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1001
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1005,
+                                "sourceId": 609,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19918,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 609,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1005
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1167,
+                                "sourceId": 745,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19919,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 745,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1167
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19920,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 745,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1167
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1209,
+                                "sourceId": 480,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19921,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 480,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1209
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19922,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 480,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1209
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1211,
+                                "sourceId": 499,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19923,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 499,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19924,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 499,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1211,
+                                "sourceId": 686,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19925,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 686,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19926,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 686,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 389,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19927,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 389,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19928,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 389,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 392,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19929,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 392,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19930,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 392,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 503,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19931,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 503,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19932,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 503,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 513,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19933,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 513,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19934,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 513,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1203,
+                                "sourceId": 484,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19935,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 484,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19936,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 484,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1203,
+                                "sourceId": 700,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19937,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 700,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19938,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 700,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 496,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19939,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 496,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19940,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 496,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 587,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19941,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 587,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19942,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 587,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 767,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19943,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 767,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19944,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 767,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 18504,
+                                "sourceId": 394,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19945,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 394,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 18504
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19946,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 394,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 18504
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 143673,
+                                "sourceId": 593,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 2,
+                                        "abilityGrpId": 143673
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Blue"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 143673
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 143675,
+                                "sourceId": 593,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 4,
+                                        "abilityGrpId": 143675
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Blue"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 143675
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149352,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149353,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149354,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 183,
+                                "sourceId": 738,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19947,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19948,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19949,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 2
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19950,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 3
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19951,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 4
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149629,
+                                "sourceId": 392,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 2,
+                                        "abilityGrpId": 149629
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Red"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 149629
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Green"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 149629
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 141892,
+                                "sourceId": 673,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 4,
+                                        "abilityGrpId": 141892
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_White"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 141892
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "GREMessageType_GameStateMessage",
+                "systemSeatIds": [
+                    1
+                ],
+                "msgId": 995,
+                "gameStateId": 694,
+                "gameStateMessage": {
+                    "type": "GameStateType_Diff",
+                    "gameStateId": 694,
+                    "turnInfo": {
+                        "phase": "Phase_Main1",
+                        "turnNumber": 21,
+                        "activePlayer": 2,
+                        "priorityPlayer": 2,
+                        "decisionPlayer": 2,
+                        "nextPhase": "Phase_Combat",
+                        "nextStep": "Step_BeginCombat"
+                    },
+                    "zones": [
+                        {
+                            "zoneId": 27,
+                            "type": "ZoneType_Stack",
+                            "visibility": "Visibility_Public"
+                        },
+                        {
+                            "zoneId": 30,
+                            "type": "ZoneType_Limbo",
+                            "visibility": "Visibility_Public",
+                            "objectInstanceIds": [
+                                617,
+                                387,
+                                766,
+                                616,
+                                699,
+                                744,
+                                231,
+                                707,
+                                706,
+                                576,
+                                543,
+                                477,
+                                714,
+                                556,
+                                708,
+                                612,
+                                575,
+                                610,
+                                698,
+                                230,
+                                229,
+                                491,
+                                685,
+                                228,
+                                599,
+                                598,
+                                548,
+                                470,
+                                604,
+                                603,
+                                408,
+                                476,
+                                563,
+                                586,
+                                227,
+                                574,
+                                310,
+                                407,
+                                564,
+                                505,
+                                216,
+                                226,
+                                542,
+                                534,
+                                557,
+                                312,
+                                524,
+                                406,
+                                486,
+                                533,
+                                225,
+                                523,
+                                502,
+                                405,
+                                213,
+                                512,
+                                224,
+                                307,
+                                391,
+                                404,
+                                218,
+                                214,
+                                223,
+                                483,
+                                308,
+                                403,
+                                219,
+                                215,
+                                222,
+                                309,
+                                334,
+                                397,
+                                396,
+                                315,
+                                393,
+                                221,
+                                311,
+                                314,
+                                388,
+                                220,
+                                313
+                            ]
+                        },
+                        {
+                            "zoneId": 35,
+                            "type": "ZoneType_Hand",
+                            "visibility": "Visibility_Private",
+                            "ownerSeatId": 2,
+                            "objectInstanceIds": [
+                                775
+                            ],
+                            "viewers": [
+                                2
+                            ]
+                        },
+                        {
+                            "zoneId": 36,
+                            "type": "ZoneType_Library",
+                            "visibility": "Visibility_Hidden",
+                            "ownerSeatId": 2,
+                            "objectInstanceIds": [
+                                618,
+                                619,
+                                620,
+                                621,
+                                622,
+                                623,
+                                624,
+                                625,
+                                626,
+                                627,
+                                628,
+                                629,
+                                630,
+                                631,
+                                632,
+                                633,
+                                634,
+                                635,
+                                636,
+                                637,
+                                638,
+                                639,
+                                640,
+                                641,
+                                642,
+                                643,
+                                644,
+                                645,
+                                646,
+                                647,
+                                648,
+                                649,
+                                650,
+                                651,
+                                652,
+                                653,
+                                654,
+                                655,
+                                656,
+                                657,
+                                658,
+                                659,
+                                660,
+                                661,
+                                662,
+                                663,
+                                664,
+                                665,
+                                666,
+                                667,
+                                668,
+                                669,
+                                670,
+                                671,
+                                672,
+                                716,
+                                717,
+                                718,
+                                719
+                            ]
+                        }
+                    ],
+                    "annotations": [
+                        {
+                            "id": 1943,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_ResolutionStart"
+                            ],
+                            "details": [
+                                {
+                                    "key": "grpid",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        149629
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1944,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                617
+                            ],
+                            "type": [
+                                "AnnotationType_ObjectIdChanged"
+                            ],
+                            "details": [
+                                {
+                                    "key": "orig_id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        617
+                                    ]
+                                },
+                                {
+                                    "key": "new_id",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        775
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1945,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                775
+                            ],
+                            "type": [
+                                "AnnotationType_ZoneTransfer"
+                            ],
+                            "details": [
+                                {
+                                    "key": "zone_src",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        36
+                                    ]
+                                },
+                                {
+                                    "key": "zone_dest",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        35
+                                    ]
+                                },
+                                {
+                                    "key": "category",
+                                    "type": "KeyValuePairValueType_string",
+                                    "valueString": [
+                                        "Draw"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1946,
+                            "affectorId": 769,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_ResolutionComplete"
+                            ],
+                            "details": [
+                                {
+                                    "key": "grpid",
+                                    "type": "KeyValuePairValueType_int32",
+                                    "valueInt32": [
+                                        149629
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1947,
+                            "affectorId": 387,
+                            "affectedIds": [
+                                769
+                            ],
+                            "type": [
+                                "AnnotationType_AbilityInstanceDeleted"
+                            ]
+                        }
+                    ],
+                    "diffDeletedInstanceIds": [
+                        769
+                    ],
+                    "prevGameStateId": 693,
+                    "timers": [
+                        {
+                            "timerId": 12,
+                            "type": "TimerType_Delay",
+                            "durationSec": 2,
+                            "running": true,
+                            "behavior": "TimerBehavior_StartDelayedTimer",
+                            "elapsedMs": 2
+                        }
+                    ],
+                    "update": "GameStateUpdate_SendAndRecord",
+                    "actions": [
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Cast",
+                                "instanceId": 217,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 3
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Green"
+                                        ],
+                                        "count": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1001,
+                                "sourceId": 402,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19967,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 402,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1001
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1005,
+                                "sourceId": 609,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19968,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 609,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1005
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1167,
+                                "sourceId": 745,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19969,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 745,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1167
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19970,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 745,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1167
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1209,
+                                "sourceId": 480,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19971,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 480,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1209
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19972,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 480,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1209
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1211,
+                                "sourceId": 499,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19973,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 499,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19974,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 499,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1211,
+                                "sourceId": 686,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19975,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 686,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19976,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 686,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1211
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 389,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19977,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 389,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19978,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 389,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 392,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19979,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 392,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19980,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 392,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 503,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19981,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 503,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19982,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 503,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1131,
+                                "sourceId": 513,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19983,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 513,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19984,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 513,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1131
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1203,
+                                "sourceId": 484,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19985,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 484,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19986,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 484,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 1203,
+                                "sourceId": 700,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19987,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 700,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19988,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 700,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 1203
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 496,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19989,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 496,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19990,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 496,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 587,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19991,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 587,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19992,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 587,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 4247,
+                                "sourceId": 767,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19993,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 767,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19994,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 767,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 4247
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 18504,
+                                "sourceId": 394,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19995,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 394,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 18504
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19996,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 394,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 18504
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 143673,
+                                "sourceId": 593,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 2,
+                                        "abilityGrpId": 143673
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Blue"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 143673
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 1,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 143675,
+                                "sourceId": 593,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 4,
+                                        "abilityGrpId": 143675
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Blue"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 143675
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149352,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149353,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149354,
+                                "sourceId": 525
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate_Mana",
+                                "abilityGrpId": 183,
+                                "sourceId": 738,
+                                "manaPaymentOptions": [
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19997,
+                                                "color": "ManaColor_White",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19998,
+                                                "color": "ManaColor_Blue",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 1
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 19999,
+                                                "color": "ManaColor_Black",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 2
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 20000,
+                                                "color": "ManaColor_Red",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 3
+                                    },
+                                    {
+                                        "mana": [
+                                            {
+                                                "manaId": 20001,
+                                                "color": "ManaColor_Green",
+                                                "srcInstanceId": 738,
+                                                "specs": [
+                                                    {
+                                                        "type": "ManaSpecType_Predictive"
+                                                    },
+                                                    {
+                                                        "type": "ManaSpecType_FromTreasure"
+                                                    }
+                                                ],
+                                                "abilityGrpId": 183
+                                            }
+                                        ],
+                                        "optionIndex": 4
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 149629,
+                                "sourceId": 392,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 2,
+                                        "abilityGrpId": 149629
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Red"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 149629
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_Green"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 149629
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "seatId": 2,
+                            "action": {
+                                "actionType": "ActionType_Activate",
+                                "abilityGrpId": 141892,
+                                "sourceId": 673,
+                                "manaCost": [
+                                    {
+                                        "color": [
+                                            "ManaColor_Generic"
+                                        ],
+                                        "count": 4,
+                                        "abilityGrpId": 141892
+                                    },
+                                    {
+                                        "color": [
+                                            "ManaColor_White"
+                                        ],
+                                        "count": 1,
+                                        "abilityGrpId": 141892
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "persistentAnnotations": [
+                        {
+                            "id": 14,
+                            "affectorId": 35,
+                            "affectedIds": [
+                                775
+                            ],
+                            "type": [
+                                "AnnotationType_EnteredZoneThisTurn"
+                            ]
+                        }
+                    ],
+                    "diffDeletedPersistentAnnotationIds": [
+                        1938,
+                        1948,
+                        1949,
+                        1950
+                    ]
+                }
+            }
+        ]
+    }
+}
