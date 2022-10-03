@@ -112,7 +112,7 @@ parseAndFilterGameStateMessages = function (log) {
                         var p2ManaBuffer = [...p2Mana]
 
                         /* On the untap phase, looks through each action for objects with a mana source and adds it to array */
-                        if ((annotation.type[0] == ["AnnotationType_TappedUntappedPermanent"] && message.gameStateMessage.actions/*  && annotation.details[0].valueInt32[0] == 0 */)) {
+                        if ((annotation.type[0] == ["AnnotationType_TappedUntappedPermanent"] && message.gameStateMessage.actions)) {
 
                             message.gameStateMessage.actions.forEach(act => {
 
